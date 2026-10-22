@@ -6,25 +6,25 @@ cask "kms-import" do
     end
   end
 
-  version "1.2.0"
+  version "1.2.1"
 
   on_macos do
     on_arm do
-      sha256 "ba89ba06f615bdeda4bfab7830ba3119ca98452dc31ef2a4fb24b5ec16932a96"
+      sha256 "49579d9eb671b4033be997a11e8ac47a69ebb9d29c97a49ac7b4abdd6dbd8b54"
       url "https://github.com/chinmina/kms-import/releases/download/v#{version}/kms-import_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "add16fb1f9cb148cc3860cff43d1bc03bb5e311d65cae90b996b7aa42b6004c6"
+      sha256 "34a384a8c8cdf8efe92e84dd641cfe3eb319fb04810d68807d73930c6c6ea93c"
       url "https://github.com/chinmina/kms-import/releases/download/v#{version}/kms-import_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "82ade36f65f06858ec6997c01990eaaab1d584a388edc61a18a19968b08dbb6b"
+      sha256 "cecb767dad6a06bf87ae46174e52eedc0f957d91e6c97bd919cca1797e671656"
       url "https://github.com/chinmina/kms-import/releases/download/v#{version}/kms-import_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "c34cfbd9738b9f6cb37cf5c0e9468599fb380a30ab6e4261915f8face1abb0d4"
+      sha256 "c203f1afe6e9783b450858963c534cf42cee1f7d5906f839dd36202800f6dd42"
       url "https://github.com/chinmina/kms-import/releases/download/v#{version}/kms-import_linux_amd64.tar.gz"
     end
   end
