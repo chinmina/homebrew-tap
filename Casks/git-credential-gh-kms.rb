@@ -6,25 +6,25 @@ cask "git-credential-gh-kms" do
     end
   end
 
-  version "0.1.1"
+  version "1.0.0"
 
   on_macos do
     on_arm do
-      sha256 "24ff6b0a02c0b5986f2b079b8d54cf617b9ca2df8197cf5de7b1b315452caa62"
+      sha256 "cefca6560b1572b64bbc78b7be4a66b4329671ac25286e2b5a3d7ed845fe00f9"
       url "https://github.com/chinmina/git-credential-gh-kms/releases/download/v#{version}/git-credential-gh-kms_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "7242cdff8ec1a2a7fbc7a991b813e930f1d9261bf9258e3d76f2623fac7cf406"
+      sha256 "9eeec3be6cae0c494b995992b52ed3f144044fc5f2dd568b54be48a2765ab2b2"
       url "https://github.com/chinmina/git-credential-gh-kms/releases/download/v#{version}/git-credential-gh-kms_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "89293683776aea1ca293d2f19332333f0949369be4cad3bb253c36ed07de94c0"
+      sha256 "8955f25ee6ee6df547a92a8400773e145ebbff6249d32702b009de2040540485"
       url "https://github.com/chinmina/git-credential-gh-kms/releases/download/v#{version}/git-credential-gh-kms_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "d2ef4863d752c3cebc17ec9f267362bfa953d14ac62c5a0c917699ab755cab87"
+      sha256 "d211bf5510b14887bcc0f8cdf70001fa4f0d5f018bc0d17e8e4e8df510ab6819"
       url "https://github.com/chinmina/git-credential-gh-kms/releases/download/v#{version}/git-credential-gh-kms_linux_amd64.tar.gz"
     end
   end
